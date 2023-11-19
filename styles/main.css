@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+main {
+	height: 100vh;
+	background-color: var(--color-light-gray);
+	font-family: var(--font-family);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 2rem;
+}
+
+.card {
+	background-color: var(--color-white);
+	border-radius: 1.25em;
+	padding: 1em;
+	max-width: 15em;
+	text-align: center;
+}
+
+.card__feature {
+	/* border-radius: calc(1.25em - 1em); */
+	border-radius: 0.75em;
+	margin-bottom: 1em;
+	/* min-width: 300px; */
+}
+
+.card__title {
+	font-weight: 700;
+	font-size: 1rem;
+	color: var(--color-dark-blue);
+	margin-bottom: 0.75em;
+}
+
+.card__description {
+	font-size: 0.75rem;
+	color: var(--color-grayish-blue);
+	margin-bottom: 0.75em;
+}

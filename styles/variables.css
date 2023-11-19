@@ -1,0 +1,12 @@
+:root {
+	--color-white: hsl(0, 0%, 100%);
+	--color-light-gray: hsl(212, 45%, 89%);
+	--color-grayish-blue: hsl(220, 15%, 55%);
+	--color-dark-blue: hsl(218, 44%, 22%);
+
+	--size-base: 1rem;
+	--font-family: 'Outfit', sans-serif;
+
+	--mobile-threshold: 375px;
+	--desktop-threshold: 1440px;
+}
